@@ -1,0 +1,1010 @@
+/* =========================
+   GENERAL
+========================= */
+
+body {
+
+    margin:0;
+    padding:0;
+
+    font-family:Arial, sans-serif;
+
+    background:#f4f7fb;
+
+    color:#1a1a1a;
+
+}
+
+
+
+/* =========================
+   HEADER
+========================= */
+
+
+.topbar {
+
+    background:#003b73;
+
+    color:white;
+
+    padding:20px 40px;
+
+    border-bottom:4px solid #d4af37;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+
+
+.logo {
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+
+
+.logo i {
+
+    font-size:35px;
+
+}
+
+
+
+.logo h2 {
+
+    margin:0;
+
+}
+
+
+
+.logo span {
+
+    font-size:14px;
+
+}
+
+
+
+
+
+#darkMode {
+
+    background:#d4af37;
+
+    color:#003b73;
+
+}
+
+
+
+
+
+/* =========================
+   LAYOUT
+========================= */
+
+
+.layout {
+
+    display:flex;
+
+}
+
+
+
+.sidebar {
+
+    width:250px;
+
+    background:#003b73;
+
+    min-height:100vh;
+
+    padding-top:20px;
+
+}
+
+
+
+.sidebar a {
+
+    display:block;
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:15px 20px;
+
+    font-weight:bold;
+
+}
+
+
+
+.sidebar a:hover,
+
+.sidebar .active {
+
+    background:#d4af37;
+
+    color:#003b73;
+
+}
+
+
+
+
+
+main {
+
+    flex:1;
+
+}
+
+
+
+
+
+/* =========================
+   HERO
+========================= */
+
+
+.hero {
+
+
+    background:
+
+    linear-gradient(
+
+    rgba(0,59,115,0.9),
+
+    rgba(0,59,115,0.9)
+
+    );
+
+
+    color:white;
+
+    padding:70px 40px;
+
+
+}
+
+
+
+.hero h1 {
+
+    font-size:45px;
+
+}
+
+
+
+.hero p {
+
+    font-size:18px;
+
+}
+
+
+
+
+
+
+
+/* =========================
+   BUTTONS
+========================= */
+
+
+button {
+
+    background:#d4af37;
+
+    color:#003b73;
+
+    border:none;
+
+    padding:12px 30px;
+
+    font-weight:bold;
+
+    border-radius:5px;
+
+    cursor:pointer;
+
+}
+
+
+
+button:hover {
+
+    background:white;
+
+}
+
+
+
+
+
+
+
+
+/* =========================
+   CARDS
+========================= */
+
+
+.cards {
+
+
+    display:flex;
+
+    gap:20px;
+
+    padding:40px;
+
+
+}
+
+
+
+.card {
+
+
+    background:white;
+
+    border-top:5px solid #003b73;
+
+    padding:25px;
+
+    border-radius:10px;
+
+
+    box-shadow:
+
+    0 3px 10px rgba(0,0,0,0.1);
+
+
+    flex:1;
+
+
+}
+
+
+
+.card i {
+
+
+    font-size:30px;
+
+    color:#003b73;
+
+
+}
+
+
+
+.card h3 {
+
+
+    color:#003b73;
+
+
+}
+
+
+
+
+
+
+/* =========================
+   GALLERY
+========================= */
+
+
+.gallery-section {
+
+
+    margin:40px;
+
+    padding:30px;
+
+    background:white;
+
+    border-radius:10px;
+
+    border-top:5px solid #003b73;
+
+
+    box-shadow:
+
+    0 3px 10px rgba(0,0,0,0.1);
+
+
+}
+
+
+
+.gallery-section h2 {
+
+
+    color:#003b73;
+
+    font-size:30px;
+
+
+}
+
+
+
+.gallery-section p {
+
+
+    font-size:18px;
+
+
+}
+
+
+
+
+
+.gallery-upload {
+
+
+    margin:25px 0;
+
+
+}
+
+
+
+
+.gallery-grid {
+
+
+    display:grid;
+
+
+    grid-template-columns:
+
+    repeat(auto-fit,minmax(250px,1fr));
+
+
+    gap:20px;
+
+
+}
+
+
+
+
+
+
+.gallery-grid img {
+
+
+    width:100%;
+
+
+    height:220px;
+
+
+    object-fit:cover;
+
+
+    border-radius:10px;
+
+
+    border:3px solid #003b73;
+
+
+    cursor:pointer;
+
+
+    transition:.3s;
+
+
+}
+
+
+
+
+
+.gallery-grid img:hover {
+
+
+    transform:scale(1.05);
+
+
+}
+
+
+
+
+
+
+
+
+/* =========================
+   FOOTER
+========================= */
+
+
+footer {
+
+
+    background:#003b73;
+
+
+    color:white;
+
+
+    text-align:center;
+
+
+    padding:20px;
+
+
+}
+/* =========================
+   ANNOUNCEMENTS SYSTEM
+========================= */
+
+
+.announcements-section {
+
+
+    max-width:1000px;
+
+
+    margin:40px auto;
+
+
+    padding:30px;
+
+
+    background:white;
+
+
+    border-radius:10px;
+
+
+    border-top:5px solid #003b73;
+
+
+    box-shadow:
+
+    0 3px 10px rgba(0,0,0,0.1);
+
+
+}
+
+
+
+
+
+
+.announcements-section h2 {
+
+
+    text-align:center;
+
+
+    color:#003b73;
+
+
+    font-size:32px;
+
+
+}
+
+
+
+
+
+.announcements-section > p {
+
+
+    text-align:center;
+
+
+    font-size:18px;
+
+
+    margin-bottom:30px;
+
+
+}
+
+
+
+
+
+
+/* =========================
+   ADMIN LOGIN
+========================= */
+
+
+.admin-login {
+
+
+    text-align:center;
+
+
+    margin:25px 0;
+
+
+}
+
+
+
+
+
+
+
+
+/* =========================
+   CREATE ANNOUNCEMENT
+========================= */
+
+
+.announcement-create {
+
+
+    max-width:700px;
+
+
+    margin:30px auto;
+
+
+    padding:25px;
+
+
+    background:#f4f7fb;
+
+
+    border-radius:10px;
+
+
+    border-left:6px solid #003b73;
+
+
+}
+
+
+
+
+
+.announcement-create h3 {
+
+
+    text-align:center;
+
+
+    color:#003b73;
+
+
+}
+
+
+
+
+
+
+.announcement-create input,
+
+.announcement-create select,
+
+.announcement-create textarea {
+
+
+
+    width:100%;
+
+
+    box-sizing:border-box;
+
+
+    padding:12px;
+
+
+    margin-bottom:15px;
+
+
+    border-radius:6px;
+
+
+    border:1px solid #ccc;
+
+
+    font-size:16px;
+
+
+
+}
+
+
+
+
+
+.announcement-create textarea {
+
+
+    height:150px;
+
+
+    resize:none;
+
+
+}
+
+
+
+
+
+
+
+
+/* =========================
+   ANNOUNCEMENT CARDS
+========================= */
+
+
+.announcements-list {
+
+
+    max-width:800px;
+
+
+    margin:40px auto;
+
+
+
+    display:flex;
+
+
+    flex-direction:column;
+
+
+    gap:20px;
+
+
+
+}
+
+
+
+
+
+
+
+.announcement-card {
+
+
+    background:white;
+
+
+    padding:25px;
+
+
+    border-radius:10px;
+
+
+    border-left:7px solid #003b73;
+
+
+
+    box-shadow:
+
+
+    0 3px 10px rgba(0,0,0,0.15);
+
+
+
+}
+
+
+
+
+
+
+
+
+.announcement-card h3 {
+
+
+    color:#003b73;
+
+
+    font-size:24px;
+
+
+    margin-top:0;
+
+
+
+}
+
+
+
+
+
+
+
+.announcement-category {
+
+
+    display:inline-block;
+
+
+    background:#d4af37;
+
+
+    color:#003b73;
+
+
+    padding:6px 15px;
+
+
+    border-radius:20px;
+
+
+    font-weight:bold;
+
+
+    margin:10px 0;
+
+
+
+}
+
+
+
+
+
+
+
+
+.announcement-card small {
+
+
+    display:block;
+
+
+    color:#555;
+
+
+    margin:10px 0;
+
+
+
+}
+
+
+
+
+
+
+
+.announcement-card p {
+
+
+    font-size:17px;
+
+
+    line-height:1.6;
+
+
+
+}
+
+
+
+
+
+
+
+
+.delete-announcement {
+
+
+    background:#a00000;
+
+
+    color:white;
+
+
+    margin-top:15px;
+
+
+
+}
+
+
+
+
+
+.delete-announcement:hover {
+
+
+    background:#700000;
+
+
+
+}
+
+
+
+
+
+
+
+
+/* =========================
+   GALLERY DELETE
+========================= */
+
+
+.gallery-item {
+
+
+    text-align:center;
+
+
+}
+
+
+
+
+
+.delete-photo {
+
+
+    background:#a00000;
+
+
+    color:white;
+
+
+    margin-top:10px;
+
+
+
+}
+
+
+
+
+
+.delete-photo:hover {
+
+
+    background:#700000;
+
+
+
+}
+
+
+
+
+
+
+
+
+/* =========================
+   MOBILE
+========================= */
+
+
+@media(max-width:900px){
+
+
+
+.layout {
+
+
+    flex-direction:column;
+
+
+}
+
+
+
+
+.sidebar {
+
+
+    width:100%;
+
+
+    min-height:auto;
+
+
+}
+
+
+
+
+.cards {
+
+
+    flex-direction:column;
+
+
+}
+
+
+
+
+
+.hero h1 {
+
+
+    font-size:35px;
+
+
+}
+
+
+
+
+
+.gallery-section {
+
+
+    margin:20px;
+
+
+}
+
+
+
+
+
+
+.announcements-section {
+
+
+    margin:20px;
+
+
+    padding:20px;
+
+
+}
+
+
+
+
+
+.announcement-card {
+
+
+    padding:20px;
+
+
+}
+
+
+
+
+}
