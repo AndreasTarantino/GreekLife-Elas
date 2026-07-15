@@ -20,48 +20,81 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 <style>
 
 body{
+
 background:#eef2f7;
+
 }
 
 
-/* PREMIUM HERO */
+
+/* PREMIUM COLORS */
+
+
+.topbar{
+
+background:#061b33 !important;
+
+border-bottom:4px solid #c9a227;
+
+}
+
+
+
+.sidebar{
+
+background:#061b33 !important;
+
+}
+
+
+
+.sidebar a:hover,
+.sidebar .active{
+
+background:#c9a227 !important;
+
+color:#061b33 !important;
+
+}
+
+
+
+
 
 .hero{
 
+
 background:
+
 linear-gradient(
-rgba(6,27,51,.92),
-rgba(6,27,51,.92)
-);
+
+rgba(6,27,51,.95),
+
+rgba(6,27,51,.95)
+
+) !important;
+
+
+color:white;
+
 
 }
 
 
 
-/* PREMIUM CARDS */
 
 
-.card{
+.hero h1{
 
-border-top:5px solid #c9a227;
+font-size:45px;
 
-transition:.3s;
-
-}
-
-
-
-.card:hover{
-
-transform:translateY(-8px);
-
-box-shadow:0 8px 20px rgba(0,0,0,.2);
+letter-spacing:2px;
 
 }
 
 
 
-.card i{
+.hero h2{
 
 color:#c9a227;
 
@@ -71,36 +104,61 @@ color:#c9a227;
 
 
 
-/* SIDEBAR */
-
-.sidebar{
-
-background:#061b33;
-
-}
-
-
-
-.sidebar a:hover,
-.sidebar .active{
+button{
 
 background:#c9a227;
 
 color:#061b33;
 
+border-radius:5px;
+
+}
+
+
+
+button:hover{
+
+background:white;
+
 }
 
 
 
 
 
-/* HEADER */
+.card{
 
-.topbar{
 
-background:#061b33;
+border-top:5px solid #c9a227 !important;
 
-border-bottom:4px solid #c9a227;
+
+transition:.3s;
+
+
+}
+
+
+
+.card:hover{
+
+
+transform:translateY(-8px);
+
+
+box-shadow:
+
+0 10px 25px rgba(0,0,0,.2);
+
+
+}
+
+
+
+.card i{
+
+
+color:#c9a227 !important;
+
 
 }
 
@@ -111,6 +169,8 @@ border-bottom:4px solid #c9a227;
 
 
 </head>
+
+
 
 
 
@@ -142,19 +202,18 @@ border-bottom:4px solid #c9a227;
 </div>
 
 
-
 </div>
-
 
 
 
 
 <button id="darkMode">
 
+
 <i class="fa-solid fa-moon"></i>
 
-</button>
 
+</button>
 
 
 
@@ -167,7 +226,9 @@ border-bottom:4px solid #c9a227;
 
 
 
+
 <div class="layout">
+
 
 
 
@@ -272,8 +333,8 @@ Gallery
 
 
 
-
 </aside>
+
 
 
 
@@ -289,6 +350,7 @@ Gallery
 
 
 
+
 <section class="hero">
 
 
@@ -297,6 +359,7 @@ Gallery
 Καλώς ήρθατε
 
 </h1>
+
 
 
 <h2>
@@ -334,7 +397,6 @@ GreekLife Roleplay
 
 
 <section class="cards">
-
 
 
 
@@ -383,7 +445,7 @@ GreekLife Roleplay
 
 <p>
 
-Ενημερώσεις και υπηρεσιακά νέα.
+Επίσημες ενημερώσεις και νέα.
 
 </p>
 
@@ -423,6 +485,31 @@ GreekLife Roleplay
 
 
 
+<div class="card">
+
+
+<i class="fa-solid fa-folder-open"></i>
+
+
+<h3>
+
+Έγγραφα
+
+</h3>
+
+
+<p>
+
+Υπηρεσιακά αρχεία και πληροφορίες.
+
+</p>
+
+
+</div>
+
+
+
+
 
 </section>
 
@@ -437,6 +524,7 @@ GreekLife Roleplay
 <section class="card" style="margin:40px;">
 
 
+
 <h2 style="color:#061b33;">
 
 Σχετικά με την υπηρεσία
@@ -444,16 +532,18 @@ GreekLife Roleplay
 </h2>
 
 
+
 <p>
 
 Το GreekLife RP αποτελεί την κεντρική πλατφόρμα
-οργάνωσης, ενημέρωσης και διαχείρισης
-του σώματος.
+οργάνωσης, ενημέρωσης και διαχείρισης του σώματος.
 
 </p>
 
 
+
 </section>
+
 
 
 
@@ -482,6 +572,15 @@ GreekLife RP © 2026 | Police Department
 </footer>
 
 
+
+
+
+
+
+
+</body>
+
+</html>
 
 
 
