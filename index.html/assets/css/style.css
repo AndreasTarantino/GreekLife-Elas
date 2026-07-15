@@ -1008,3 +1008,286 @@ footer {
 
 
 }
+/* =========================================
+   PREMIUM POLICE THEME UPGRADE
+========================================= */
+
+
+/* COLORS */
+
+:root {
+
+    --navy:#061b33;
+
+    --gold:#c9a227;
+
+    --light:#eef2f7;
+
+}
+
+
+
+/* BODY */
+
+body {
+
+    background:var(--light);
+
+}
+
+
+
+/* HEADER */
+
+.topbar {
+
+    background:var(--navy);
+
+    border-bottom:4px solid var(--gold);
+
+}
+
+
+
+.logo i {
+
+    color:var(--gold);
+
+}
+
+
+
+/* DARK MODE BUTTON */
+
+#darkMode {
+
+    background:var(--gold);
+
+    color:var(--navy);
+
+}
+
+
+
+#darkMode:hover {
+
+    background:white;
+
+}
+
+
+
+/* SIDEBAR */
+
+.sidebar {
+
+    background:var(--navy);
+
+}
+
+
+
+.sidebar a {
+
+    border-radius:8px;
+
+    margin:5px 10px;
+
+    transition:.3s;
+
+}
+
+
+
+.sidebar a:hover,
+
+.sidebar .active {
+
+    background:var(--gold);
+
+    color:var(--navy);
+
+    transform:translateX(6px);
+
+}
+
+
+
+/* HERO */
+
+.hero {
+
+    background:
+
+    linear-gradient(
+
+    rgba(6,27,33,.95),
+
+    rgba(6,27,33,.95)
+
+    );
+
+
+    border-bottom:4px solid var(--gold);
+
+}
+
+
+
+.hero h1 {
+
+    letter-spacing:2px;
+
+}
+
+
+
+.hero h2 {
+
+    color:var(--gold);
+
+}
+
+
+
+/* BUTTONS */
+
+button {
+
+    background:var(--gold);
+
+    color:var(--navy);
+
+}
+
+
+
+button:hover {
+
+    background:white;
+
+}
+
+
+
+/* CARDS */
+
+.card {
+
+    border-top:5px solid var(--gold);
+
+    border-radius:15px;
+
+    box-shadow:
+
+    0 8px 20px rgba(0,0,0,.12);
+
+    transition:.3s;
+
+}
+
+
+
+.card:hover {
+
+    transform:translateY(-6px);
+
+}
+
+
+
+.card i {
+
+    color:var(--gold);
+
+}
+
+
+
+.card h3 {
+
+    color:var(--navy);
+
+}
+
+
+
+/* GALLERY */
+
+.gallery-section {
+
+    border-top:5px solid var(--gold);
+
+}
+
+
+
+.gallery-grid img {
+
+    border:3px solid var(--navy);
+
+}
+
+
+
+/* ANNOUNCEMENTS */
+
+.announcements-section {
+
+    border-top:5px solid var(--gold);
+
+}
+
+
+
+.announcement-card {
+
+    border-left:7px solid var(--navy);
+
+}
+
+
+
+.announcement-card h3 {
+
+    color:var(--navy);
+
+}
+
+
+
+.announcement-category {
+
+    background:var(--gold);
+
+    color:var(--navy);
+
+}
+
+
+
+/* FOOTER */
+
+footer {
+
+    background:var(--navy);
+
+    border-top:4px solid var(--gold);
+
+}
+
+
+
+/* MOBILE */
+
+@media(max-width:900px){
+
+
+.sidebar a {
+
+    margin:5px;
+
+}
+
+
+}
